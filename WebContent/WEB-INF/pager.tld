@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+	<tlib-version>5.0</tlib-version>
+	<short-name>q</short-name>
+	<!-- <uri>http://www.itvk.cn/jsp/tags</uri> -->
+	<!-- 这个uri指向了一个奇怪的域名，但是好像可以改成别的，不影响tld的使用，只是为了jsp使用自定义标签时uri可以直接用域名引入 -->
+	<tag>
+		<name>pager</name>
+		<tag-class>com.javsrc.web.tag.PagerTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>number</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+			<!-- 原来不是java.lang.Integer，是int，但是又黄线，改了之后没有，不知道有没有问题 -->
+			<!-- 然后发现可能是eclipse有问题，所以又改回int了 -->
+		</attribute>
+		<attribute>
+			<name>totalElements</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+		</attribute>
+		<attribute>
+			<name>size</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+		</attribute>
+		<attribute>
+			<name>url</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+		</attribute>
+	</tag>
+
+</taglib>
