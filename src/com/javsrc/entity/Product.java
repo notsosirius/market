@@ -6,8 +6,6 @@ import java.util.Date;
 
 /**
  * 商品
- * 
- * @author qiujy
  */
 public class Product implements Serializable {
 	private static final long serialVersionUID = -379231982515404860L;
