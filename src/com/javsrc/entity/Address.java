@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 /**
  * 会员的地址
- * @author qiujy
  */
 public class Address implements Serializable {
 	private static final long serialVersionUID = 529932754573978762L;
