@@ -5,7 +5,6 @@ import java.util.Date;
 
 /**
  * 公告
- * @author qiujy
  */
 public class News implements Serializable {
 	
