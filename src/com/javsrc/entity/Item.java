@@ -5,7 +5,6 @@ import java.math.BigDecimal;
 
 /**
  * 订单项
- * @author qiujy
  */
 public class Item implements Serializable {
 	private static final long serialVersionUID = -5513015465167003750L;
