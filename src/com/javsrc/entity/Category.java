@@ -6,8 +6,6 @@ import java.util.List;
 
 /**
  * 类目
- * 
- * @author qiujy
  */
 public class Category implements Serializable {
 	private static final long serialVersionUID = -3350763396111688050L;
