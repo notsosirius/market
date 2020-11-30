@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * 订单实体类
- * @author qiujy
  */
 public class Orders implements Serializable {
 	private static final long serialVersionUID = -181747313514354329L;
